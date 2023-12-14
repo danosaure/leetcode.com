@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 
 const isPalindrome = require('./is-palindrome');
 
-describe.only(__filename, () => {
+describe(__filename, () => {
     it('Case 1', () => {
         expect(isPalindrome(121)).to.be.true();
     })
